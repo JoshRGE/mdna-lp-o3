@@ -91,7 +91,7 @@ export default function LandingPage() {
 
         <div className={styles.footer}>
           <div className={styles.review__container}>
-            <Image
+            <img
               onClick={(e) => {
                 e.preventDefault();
                 window.open(
@@ -101,8 +101,6 @@ export default function LandingPage() {
               }}
               src={reviewGif}
               alt="Customer Reviews"
-              height="60%"
-              width="150%"
             />
           </div>
           <p style={{ marginBottom: "-0.5rem" }}>
