@@ -50,9 +50,6 @@ export default function LandingPage() {
                 <Image
                   src={magnifyingGlass}
                   alt="magnifying glass over graph"
-                  className={styles.icon__images}
-                  height="400rem"
-                  width="400rem"
                 />
               </div>
               <p>
@@ -61,27 +58,15 @@ export default function LandingPage() {
               </p>
             </div>
             <div className={styles.icon__and__text}>
-              <div className={styles.icon__report}>
-                <Image
-                  src={report}
-                  alt="financial report"
-                  height="150rem"
-                  width="150rem"
-                />
+              <div className={styles.icon__images}>
+                <Image src={report} alt="financial report" />
               </div>
-              <p style={{ marginLeft: "25px" }}>
-                Get a unique report built just for you.
-              </p>
+              <p>Get a unique report built just for you.</p>
             </div>
 
             <div className={styles.icon__and__text}>
               <div className={styles.icon__images}>
-                <Image
-                  src={goal}
-                  alt="bullseye"
-                  height="400rem"
-                  width="400rem"
-                />
+                <Image src={goal} alt="bullseye" />
               </div>
               <p>
                 Learn how your beliefs could be affecting your budget and
