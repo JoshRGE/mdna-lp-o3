@@ -61,7 +61,7 @@ export default function LandingPage() {
               </p>
             </div>
             <div className={styles.icon__and__text}>
-              <div className={styles.icon__images}>
+              <div className={styles.icon__report}>
                 <Image
                   src={report}
                   alt="financial report"
@@ -69,7 +69,9 @@ export default function LandingPage() {
                   width="150rem"
                 />
               </div>
-              <p>Get a unique report built just for you.</p>
+              <p style={{ marginLeft: "25px" }}>
+                Get a unique report built just for you.
+              </p>
             </div>
 
             <div className={styles.icon__and__text}>
